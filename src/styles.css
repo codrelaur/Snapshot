@@ -1,0 +1,39 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.search-bar {
+  height: 32px;
+  position: relative;
+  top:-10px;
+  width: 290px;
+}
+.button-section{
+  margin:25px;
+}
+.button-section button{
+  margin-right: 10px;
+  background-color: black;
+  color:white;
+  padding:2px 15px;
+}
+.button-section button:hover{
+  cursor: pointer;
+  background-color: gray;
+}
+.flex-gallery{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+}
+.image-title{
+  background-color: black;
+  color:white;
+  width: 200px;
+  position: relative;
+  left:50%;
+  top:-20px;
+  margin-left:-100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
